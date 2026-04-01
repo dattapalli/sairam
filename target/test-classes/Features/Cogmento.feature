@@ -1,4 +1,8 @@
 Feature:Add contact in Cogmento application
+  Background:
+    Given I am on Cogmento login pages
+    When I enter username and password to login
+    And Click on login button
 
 Scenario:Verify contact is added
 Given Cogmento Home screen is displayed
